@@ -15,12 +15,33 @@
 </head>
 <body class="bg-white text-black antialiased">
 
-  <!-- Full-screen Hero Section (Apple-style: bold headline, centered, ample space) -->
-  <section class="relative min-h-screen flex items-center justify-center hero-bg overflow-hidden">
+  <!-- Apple-inspired Global Navigation Bar -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <!-- Left: Logo (US Flag Circle + GrantCentral.com) -->
+      <div class="flex items-center space-x-4">
+        <img src="https://www.shutterstock.com/image-vector/usa-flag-round-icon-isolated-260nw-2571641559.jpg" alt="US Flag" class="w-8 h-8 rounded-full object-cover">
+        <a href="/" class="text-xl font-medium text-black hover:text-gray-600 transition">GrantCentral.com</a>
+      </div>
+      
+      <!-- Center: Placeholder for future menu links (hidden on mobile) -->
+      <nav class="hidden md:flex space-x-10">
+        <!-- Add links later, e.g., <a href="#" class="text-base text-gray-700 hover:text-black transition">Grants</a> -->
+      </nav>
+      
+      <!-- Right: Placeholder for future icons (search, account) -->
+      <div class="flex items-center space-x-6">
+        <!-- Add search or sign-in later -->
+      </div>
+    </div>
+  </header>
+
+  <!-- Adjust hero padding to account for fixed header -->
+  <section class="relative min-h-screen flex items-center justify-center hero-bg overflow-hidden pt-20">
     <div class="max-w-4xl mx-auto px-8 text-center">
       <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight leading-none mb-8">
         Unlock Billions in Government Funding<br>
-        <span class="text-4xl md:text-6xl font-semibold text-gray-700">– Made Simple and Accessible for Everyone</span>
+        <span class="text-4xl md:text-5xl font-semibold text-gray-700">Made Simple and Accessible for Everyone</span>
       </h1>
       <p class="text-xl md:text-2xl font-light text-gray-800 max-w-3xl mx-auto mb-12 leading-relaxed">
         GrantCentral is the intuitive hub that brings government grants, subsidies, incentives, and funding opportunities directly to entrepreneurs, startups, small businesses, and innovators.
@@ -43,8 +64,7 @@
     </div>
   </section>
 
-  <!-- Placeholder for additional sections (e.g., features, testimonials) -->
-  <!-- You can expand this with more Apple-inspired sections: large imagery, subtle animations, etc. -->
+  <!-- Additional sections can go here -->
 
 </body>
 </html>

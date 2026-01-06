@@ -5,32 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GrantCentral.us</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f0f8ff; text-align: center; padding: 50px; }
-        h1 { color: #0066cc; font-size: 48px; margin-bottom: 20px; }
-        h2 { color: #ff6600; }
-        .intro { font-size: 28px; max-width: 1000px; margin: 40px auto; line-height: 1.6; }
-        .highlight { font-weight: bold; color: #ff6600; }
-        p { font-size: 24px; max-width: 900px; margin: 20px auto; }
-        table { width: 95%; max-width: 1200px; margin: 40px auto; border-collapse: collapse; }
-        th, td { border: 1px solid #0066cc; padding: 15px; text-align: left; vertical-align: top; }
-        th { background: #0066cc; color: white; }
-        a { color: #0066cc; text-decoration: underline; }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            text-align: center;
+        }
+        header {
+            padding: 40px 20px 20px;
+            position: relative;
+        }
+        .usa-orb {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 56px;
+            font-weight: 600;
+            margin: 20px 0;
+            letter-spacing: -0.5px;
+        }
+        .intro {
+            font-size: 32px;
+            max-width: 900px;
+            margin: 40px auto;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #0066cc;
+        }
+        .contact {
+            font-size: 24px;
+            margin: 60px auto;
+        }
+        .contact a {
+            color: #0066cc;
+            text-decoration: none;
+            border-bottom: 1px solid #0066cc;
+        }
+        h2 {
+            font-size: 40px;
+            font-weight: 600;
+            margin: 80px 0 40px;
+        }
+        table {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto 80px;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: white;
+            border-radius: 18px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        th, td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #d2d2d7;
+        }
+        th {
+            background: #f5f5f7;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer p {
+            font-size: 18px;
+            color: #86868b;
+            margin: 60px 0;
+        }
     </style>
 </head>
 <body>
-    <h1>GrantCentral.us</h1>
+    <header>
+        <img src="https://thumbs.dreamstime.com/b/glossy-sphere-featuring-united-states-flag-perfect-patriotic-designs-presentations-high-resolution-d-render-american-398643412.jpg" alt="USA Flag Orb" class="usa-orb">
+        <h1>GrantCentral.us</h1>
+    </header>
 
     <div class="intro">
         GrantCentral will make government grants, subsidies, incentives, and funding opportunities <span class="highlight">public and easily accessible to everyone</span> — especially entrepreneurs, startups, small businesses, and innovators.<br><br>
         We want the <span class="highlight">hundreds of billions of dollars</span> in public funds to be used to boost our communities' wellbeing through real entrepreneurship — rather than going into fraud, waste, and abuse.
     </div>
 
-    <p>Contact: <a href="mailto:info@grantcentral.us">info@grantcentral.us</a></p>
+    <div class="contact">
+        Contact: <a href="mailto:info@grantcentral.us">info@grantcentral.us</a>
+    </div>
 
-    <h2>Top Open Opportunities (Updated January 2026)</h2>
-    <p>Curated list with your filters in mind. Full searchable database coming soon. Recipient tracking via USAspending.gov links.</p>
+    <h2>Top Open Opportunities</h2>
+    <p style="font-size: 24px; max-width: 900px; margin: 0 auto 60px;">Curated opportunities updated regularly. Full searchable hub coming soon.</p>
 
     <table>
+        <!-- Your grant rows here – same as before -->
         <tr>
             <th>Grant Name</th>
             <th>Sector</th>
@@ -38,46 +120,13 @@
             <th>Complexity</th>
             <th>Location</th>
             <th>Requirements</th>
-            <th>Link / Recipient Tracking</th>
+            <th>Link / Tracking</th>
         </tr>
-        <tr>
-            <td>Solid Waste Infrastructure for Recycling Grants (EPA SWIFR)</td>
-            <td>Environment / Waste Management / Circular Economy</td>
-            <td>Varies ($50K–millions; total $275M 2022-2026)</td>
-            <td>Medium-High</td>
-            <td>Federal (States, Tribes, Local Gov)</td>
-            <td>Improve recycling infrastructure</td>
-            <td><a href="https://www.epa.gov/infrastructure/solid-waste-infrastructure-recycling-grant-program">Apply/Details</a> | Deadline: Jan 23, 2026</td>
-        </tr>
-        <tr>
-            <td>Amber Grants for Women</td>
-            <td>General Business / Women-Owned</td>
-            <td>$10K monthly + $25K-50K year-end</td>
-            <td>Low</td>
-            <td>U.S./Canada</td>
-            <td>Women-owned business</td>
-            <td><a href="https://ambergrantsforwomen.com/get-an-amber-grant/">Apply Monthly</a> | Ongoing</td>
-        </tr>
-        <tr>
-            <td>EPA SBIR Phase I</td>
-            <td>Environment / Innovation / Plastic Alternatives</td>
-            <td>Up to $100K-200K</td>
-            <td>Medium</td>
-            <td>Federal (U.S. small businesses)</td>
-            <td>Innovative environmental tech</td>
-            <td><a href="https://www.epa.gov/sbir">EPA SBIR Site</a> | Next solicitation ~June 2026</td>
-        </tr>
-        <tr>
-            <td>Circulate Capital Funding</td>
-            <td>Environment / Circular Economy / Plastic Prevention</td>
-            <td>Debt/Equity (millions)</td>
-            <td>High</td>
-            <td>Global (U.S. eligible)</td>
-            <td>Preventing ocean plastic at source</td>
-            <td><a href="https://www.circulatecapital.com/apply-for-funding/">Apply</a> | Ongoing</td>
-        </tr>
+        <!-- Paste your existing rows here -->
     </table>
 
-    <p>More opportunities added regularly. Together we're redirecting public money to real innovation and community growth.</p>
+    <footer>
+        <p>Redirecting public money to real innovation and community growth.</p>
+    </footer>
 </body>
 </html>
